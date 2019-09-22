@@ -21,14 +21,14 @@
   * src/controller.c
   
 ## 코드 기여자
-* inc/resource/resource_led.h 박상우
-* src/resource/resource_led.c 박상우
-* src/controller.c 박상우
+* st-things-neopixel/inc/resource/resource_led.h 박상우
+* st-things-neopixel/src/resource/resource_led.c 박상우
+* st-things-neopixel/src/controller.c 박상우
 * node-rtsp 황해연
 * guardians 배정만
 
 ## 보드
-* SDTA7D : 버튼 입력 및 LED 제어, 라즈베리파이와 통신, https://github.com/Bill-Park/tizen-hackathon-source
+* SDTA7D : 버튼 입력 및 LED 제어, 라즈베리파이와 통신, https://github.com/Bill-Park/tizen-hackathon
 
 ## 구현사항
 * GPIO, PWM, UART, I2C 사용
