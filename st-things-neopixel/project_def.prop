@@ -1,0 +1,11 @@
+APPNAME = smart-light
+
+type = app
+profile = iot-headed-5.0
+
+USER_SRCS = src/smart-light.c
+USER_DEFS =
+USER_INC_DIRS = inc
+USER_OBJS =
+USER_LIBS = lib/libst_thing_master_api.so, lib/libst_thing_resource_api.so
+USER_EDCS =

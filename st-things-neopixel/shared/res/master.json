@@ -1,0 +1,18 @@
+{
+  "devices": [
+    {
+      "deviceType": "oic.d.light",
+      "deviceName": "***Your Device Name***",
+      "mnid": "***Your MNID***",
+      "vid": "***Your Vendor ID***"
+    }
+  ],
+  "configuration": {
+    "easySetup": {
+      "mode": 1,
+      "setupId": "***Your Setup ID***"
+    },
+    "otm": 2,
+    "crtType": 1
+  }
+}

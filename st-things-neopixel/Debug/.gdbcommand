@@ -1,0 +1,6 @@
+set sysroot /Users/ParkSangWoo/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headed/rootstraps/iot-headed-5.0-device.core
+set debug-file-directory /Users/ParkSangWoo/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headed/rootstraps/iot-headed-5.0-device.core/usr/lib/debug
+set solib-search-path /Users/ParkSangWoo/Documents/mechasolution_project/tizen/st-things-neopixel/Debug
+dir /Users/ParkSangWoo/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.0/iot-headed/rootstraps/iot-headed-5.0-device.core/usr/src/debug
+file "/Users/ParkSangWoo/Documents/mechasolution_project/tizen/st-things-neopixel/Debug/smart-light"
+sharedlibrary

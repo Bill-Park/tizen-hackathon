@@ -1,0 +1,52 @@
+{
+  "resources": {
+    "single": [
+      {
+        "uri": "/capability/motionSensor/main/0",
+        "types": [
+          "oic.r.sensor.motion"
+        ],
+        "interfaces": [
+          "oic.if.s",
+          "oic.if.baseline"
+        ]
+      },
+      {
+        "uri": "/capability/switch/main/0",
+        "types": [
+          "x.com.st.powerswitch"
+        ],
+        "interfaces": [
+          "oic.if.a",
+          "oic.if.baseline"
+        ]
+      }
+    ]
+  },
+  "resourceTypes": [
+    {
+      "type": "oic.r.sensor.motion",
+      "properties": [
+        {
+          "key": "value",
+          "type": "boolean",
+          "readOnly": 1,
+          "mandatory": false,
+          "isArray": false
+        }
+      ]
+    },
+    {
+      "type": "x.com.st.powerswitch",
+      "properties": [
+        {
+          "key": "power",
+          "type": "string",
+          "readOnly": 3,
+          "mandatory": true,
+          "isArray": false
+        }
+      ]
+    }
+  ]
+}
